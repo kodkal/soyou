@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: soyou-support
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: ./support-site
+    pullRequestPreviewsEnabled: false
