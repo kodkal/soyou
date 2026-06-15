@@ -181,6 +181,14 @@ h3 {
   background: var(--paper);
 }
 
+.text-link {
+  display: inline-flex;
+  margin-top: 20px;
+  color: var(--ink);
+  font-weight: 900;
+  text-underline-offset: 5px;
+}
+
 .phone-preview {
   width: min(100%, 360px);
   margin: 0 auto;
@@ -284,6 +292,84 @@ h3 {
 
 .contact p {
   max-width: 64ch;
+}
+
+.policy-page {
+  width: min(900px, calc(100% - 36px));
+}
+
+.policy-hero {
+  padding: 64px 0 42px;
+}
+
+.policy-hero h1 {
+  max-width: 12ch;
+  font-size: clamp(3rem, 8vw, 6.5rem);
+}
+
+.policy-date {
+  margin: 22px 0 0;
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.policy-section {
+  padding: 36px 0;
+  border-top: 1px solid rgba(23, 21, 15, 0.14);
+}
+
+.policy-section h2 {
+  margin-bottom: 16px;
+  font-size: clamp(1.7rem, 3vw, 2.5rem);
+  line-height: 1.05;
+}
+
+.policy-section p,
+.policy-section li {
+  color: var(--muted);
+  font-size: 1.02rem;
+  font-weight: 650;
+}
+
+.policy-section p {
+  margin: 0 0 16px;
+}
+
+.policy-section ul {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-left: 22px;
+}
+
+.policy-list {
+  display: grid;
+  gap: 14px;
+}
+
+.policy-list article {
+  padding: 20px;
+  border: 2px solid var(--black);
+  border-radius: 8px;
+  background: var(--paper);
+  box-shadow: 0 5px 0 var(--black);
+}
+
+.policy-list article:nth-child(2n) {
+  background: var(--blue);
+}
+
+.policy-list article:nth-child(3n) {
+  background: var(--mint);
+}
+
+.policy-list p,
+.policy-contact p {
+  margin-bottom: 0;
+}
+
+.policy-contact {
+  padding-bottom: 84px;
 }
 
 footer {
