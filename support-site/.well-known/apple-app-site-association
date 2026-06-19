@@ -1,0 +1,18 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "TEAM_ID_PLACEHOLDER.com.Kalee.SOYou"
+        ],
+        "components": [
+          {
+            "/": "/join*",
+            "comment": "SO You invite links"
+          }
+        ]
+      }
+    ]
+  }
+}

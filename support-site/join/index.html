@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Join SO You!</title>
+    <meta
+      name="description"
+      content="Join a SO You! room from an invite link."
+    >
+    <link rel="icon" href="/assets/app-icon.png">
+    <link rel="apple-touch-icon" href="/assets/app-icon.png">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/scripts/invite-links.js" defer></script>
+    <script src="/join/join.js" defer></script>
+  </head>
+  <body class="invite-body">
+    <header class="site-header invite-header">
+      <a class="brand" href="/" aria-label="SO You! Support home">
+        <img src="/assets/app-icon.png" alt="" width="44" height="44">
+        <span>SO You!</span>
+      </a>
+      <nav aria-label="Invite links">
+        <a href="/">Support</a>
+        <a href="/privacy/">Privacy</a>
+      </nav>
+    </header>
+
+    <main class="invite-page">
+      <section class="invite-panel" aria-labelledby="invite-title">
+        <div class="invite-brand-mark">
+          <img src="/assets/app-icon.png" alt="" width="84" height="84">
+        </div>
+
+        <p class="eyebrow">Game Invite</p>
+        <h1 id="invite-title">Join SO You!</h1>
+        <p class="invite-copy" id="invite-copy">
+          Open SO You! to join this room.
+        </p>
+
+        <div class="room-code-box" aria-live="polite">
+          <span>Room code</span>
+          <strong id="room-code">----</strong>
+        </div>
+
+        <div class="invite-actions">
+          <a class="button primary" id="open-app" href="#" rel="nofollow">Open SO You</a>
+          <button class="button secondary" id="copy-code" type="button">Copy room code</button>
+        </div>
+
+        <p class="invite-status" id="invite-status" role="status">
+          Checking whether SO You! is installed...
+        </p>
+
+        <div class="install-options" id="install-options" aria-labelledby="install-title">
+          <h2 id="install-title">Need the app?</h2>
+          <div class="install-links">
+            <a href="https://apps.apple.com/" rel="nofollow">iOS testing link</a>
+            <a href="https://play.google.com/store/apps" rel="nofollow">Android testing link</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>SO You! Invite</span>
+      <span>© 2026 SO You!</span>
+    </footer>
+  </body>
+</html>

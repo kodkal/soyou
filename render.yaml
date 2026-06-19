@@ -5,3 +5,17 @@ services:
     buildCommand: ""
     staticPublishPath: ./support-site
     pullRequestPreviewsEnabled: false
+    headers:
+      - path: /.well-known/apple-app-site-association
+        name: Content-Type
+        value: application/json
+      - path: /.well-known/assetlinks.json
+        name: Content-Type
+        value: application/json
+    routes:
+      - type: rewrite
+        source: /join
+        destination: /join/index.html
+      - type: rewrite
+        source: /join/
+        destination: /join/index.html
