@@ -46,7 +46,7 @@
 
     window.clearTimeout(fallbackTimer);
     fallbackTimer = window.setTimeout(function () {
-      showInstallOptions("Still here? Open the app again or use one of the install/testing links below.");
+      showInstallOptions("Still here? Open the app again or use one of the store links below.");
     }, 1500);
   }
 
